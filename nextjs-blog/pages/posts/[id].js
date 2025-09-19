@@ -3,7 +3,7 @@ import customStyles from '../../styles/CustomPost.module.css'; // Import custom 
 import Date from '../../components/date'; // Import Date component
 import Head from 'next/head'; // Import Head component for metadata
 import Layout from '../../components/layout'; // Import Layout component
-import { getAllPostIds, getPostData } from '../../lib/posts'; // Import functions from posts library
+import { getAllPostIds, getPostData } from '../../lib/posts-json'; // Import functions from posts-json library
 
 export default function Post({ postData }) { // Define and export Post component function with postData prop
     return ( // Return JSX content

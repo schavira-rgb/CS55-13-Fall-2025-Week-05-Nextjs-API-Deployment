@@ -1,0 +1,23 @@
+[
+    {
+      "id": "post-one",
+      "title": "First JSON Post",
+      "date": "2025-09-19",
+      "contentHtml": "<p>This is my first post using JSON data source.</p>",
+      "category": "tutorial"
+    },
+    {
+      "id": "post-two", 
+      "title": "Second JSON Post",
+      "date": "2025-09-19",
+      "contentHtml": "<p>Learning about API routes and deployment.</p>",
+      "category": "development"
+    },
+    {
+      "id": "post-three",
+      "title": "Third JSON Post", 
+      "date": "2025-09-19",
+      "contentHtml": "<p>Getting ready to deploy to Vercel.</p>",
+      "category": "deployment"
+    }
+  ]

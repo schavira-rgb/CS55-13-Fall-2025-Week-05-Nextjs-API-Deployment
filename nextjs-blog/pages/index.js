@@ -1,6 +1,6 @@
 import Link from 'next/link'; // Import Link component for navigation
 import Date from '../components/date'; // Import Date component
-import { getSortedPostsData } from '../lib/posts'; // Import getSortedPostsData function from lib/posts.js
+import { getSortedPostsData } from '../lib/posts-json'; // Import getSortedPostsData function from lib/posts-json.js
 import Head from 'next/head'; // Import Head component for metadata
 import Layout, { siteTitle } from '../components/layout'; // Import Layout component and siteTitle
 import utilStyles from '../styles/utils.module.css'; // Import utility CSS styles
