@@ -1,0 +1,181 @@
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .heroSection {
+    background: linear-gradient(135deg, #2d5016 0%, #3d6b1e 100%);
+    color: #f5f5dc;
+    padding: 3rem 2rem;
+    border-radius: 12px;
+    text-align: center;
+    margin-bottom: 3rem;
+    box-shadow: 0 8px 32px rgba(45, 80, 22, 0.3);
+  }
+  
+  .profileImageContainer {
+    margin-bottom: 2rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profileImage {
+    border: 4px solid #d4af37;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    display: block;
+  }
+  
+  .profileImage:hover {
+    transform: scale(1.05);
+  }
+  
+  .heroTitle {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #f5f5dc;
+  }
+  
+  .heroSubtitle {
+    font-size: 1.2rem;
+    color: #d4af37;
+    font-weight: 500;
+  }
+  
+  .section {
+    background: white;
+    padding: 2.5rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    border-left: 4px solid #d4af37;
+  }
+  
+  .sectionTitle {
+    font-size: 1.8rem;
+    color: #2d5016;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    border-bottom: 2px solid #d4af37;
+    padding-bottom: 0.5rem;
+  }
+  
+  .aboutText {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #333;
+  }
+  
+  .skillsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .skillCategory {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-top: 3px solid #2d5016;
+  }
+  
+  .skillCategoryTitle {
+    color: #2d5016;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+  }
+  
+  .skillsList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .skillItem {
+    padding: 0.3rem 0;
+    color: #333;
+    position: relative;
+    padding-left: 1rem;
+  }
+  
+  .skillItem::before {
+    content: "▶";
+    color: #d4af37;
+    position: absolute;
+    left: 0;
+    font-size: 0.8rem;
+  }
+  
+  .educationList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .educationItem {
+    background: #f8f9fa;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 6px;
+    border-left: 3px solid #d4af37;
+  }
+  
+  .courseTitle {
+    font-weight: 600;
+    color: #2d5016;
+    margin-bottom: 0.3rem;
+  }
+  
+  .courseDescription {
+    color: #666;
+    font-style: italic;
+  }
+  
+  .contactInfo {
+    text-align: center;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e8f5e8 100%);
+    padding: 2rem;
+    border-radius: 8px;
+  }
+  
+  .contactEmail {
+    color: #2d5016;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 0.8rem 1.5rem;
+    background: white;
+    border-radius: 25px;
+    display: inline-block;
+    transition: all 0.3s ease;
+    border: 2px solid #d4af37;
+  }
+  
+  .contactEmail:hover {
+    background: #2d5016;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(45, 80, 22, 0.3);
+  }
+  
+  .blogLink {
+    display: inline-block;
+    background: #d4af37;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: 600;
+    margin-top: 1rem;
+    transition: all 0.3s ease;
+  }
+  
+  .blogLink:hover {
+    background: #b8941f;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4);
+    color: white;
+  }

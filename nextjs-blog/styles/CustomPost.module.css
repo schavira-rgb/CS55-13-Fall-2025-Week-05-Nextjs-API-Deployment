@@ -1,0 +1,123 @@
+.articleContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  }
+  
+  .articleHeader {
+    background: linear-gradient(135deg, #2d5016 0%, #3d6b1e 100%);
+    color: white;
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+  
+  .articleTitle {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #f5f5dc;
+  }
+  
+  .articleMeta {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    color: #d4af37;
+    font-weight: 500;
+  }
+  
+  .metaItem {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .articleContent {
+    padding: 3rem 2rem;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #333;
+  }
+  
+  .articleContent h2 {
+    color: #2d5016;
+    font-size: 1.8rem;
+    margin: 2rem 0 1rem 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #d4af37;
+  }
+  
+  .articleContent h3 {
+    color: #2d5016;
+    font-size: 1.4rem;
+    margin: 1.5rem 0 1rem 0;
+  }
+  
+  .articleContent p {
+    margin-bottom: 1.5rem;
+  }
+  
+  .articleContent ul {
+    margin: 1.5rem 0;
+    padding-left: 2rem;
+  }
+  
+  .articleContent li {
+    margin-bottom: 0.8rem;
+    position: relative;
+  }
+  
+  .articleContent li::marker {
+    color: #d4af37;
+  }
+  
+  .navigationSection {
+    background: #f8f9fa;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .navButton {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.8rem;
+    background: linear-gradient(135deg, #2d5016, #3d6b1e);
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 16px rgba(45, 80, 22, 0.3);
+  }
+  
+  .navButton:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(45, 80, 22, 0.4);
+    color: white;
+  }
+  
+  .backArrow {
+    font-size: 1.2rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .navButton:hover .backArrow {
+    transform: translateX(-3px);
+  }
+  
+  .highlight {
+    background: linear-gradient(120deg, transparent 0%, #d4af37 0%, #d4af37 100%, transparent 100%);
+    background-size: 0% 2px;
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+    transition: background-size 0.3s ease;
+  }
+  
+  .highlight:hover {
+    background-size: 100% 2px;
+  }
